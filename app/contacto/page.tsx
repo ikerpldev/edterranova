@@ -32,7 +32,7 @@ export default function ContactoPage() {
           <div className="space-y-6">
             <div>
               <h2
-                className="text-2xl text-[#0A4D8C] font-semibold mb-2"
+                className="text-2xl text-[#1B6E90] font-semibold mb-2"
                 style={{ fontFamily: "var(--font-playfair)" }}
               >
                 O agenda directamente
@@ -88,14 +88,14 @@ function ContactItem({
 }) {
   const content = (
     <div className="flex items-start gap-3">
-      <span className="flex-shrink-0 w-9 h-9 rounded-lg bg-[#0A4D8C] text-white flex items-center justify-center">
+      <span className="flex-shrink-0 w-9 h-9 rounded-lg bg-[#1B6E90] text-white flex items-center justify-center">
         {icon}
       </span>
       <div>
         <p className="text-[10px] tracking-[0.2em] uppercase text-[#6B7280] font-semibold">
           {label}
         </p>
-        <p className="text-sm text-[#1A1A2E] mt-0.5">{value}</p>
+        <p className="text-sm text-[#1B2D3A] mt-0.5">{value}</p>
       </div>
     </div>
   );

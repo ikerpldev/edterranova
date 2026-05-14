@@ -34,13 +34,13 @@ export default function Button({
 
   const variants = {
     primary:
-      "bg-[#0A4D8C] text-white hover:bg-[#1A6DB5] shadow-lg hover:shadow-xl",
+      "bg-[#1B6E90] text-white hover:bg-[#2B8FAD] shadow-lg hover:shadow-xl",
     secondary:
-      "bg-[#00A8E8] text-white hover:bg-[#0090CC] shadow-lg hover:shadow-xl",
+      "bg-[#3DBFAA] text-white hover:bg-[#0090CC] shadow-lg hover:shadow-xl",
     outline:
-      "border-2 border-[#0A4D8C] text-[#0A4D8C] hover:bg-[#0A4D8C] hover:text-white",
+      "border-2 border-[#1B6E90] text-[#1B6E90] hover:bg-[#1B6E90] hover:text-white",
     "outline-white":
-      "border-2 border-white text-white hover:bg-white hover:text-[#0A4D8C]",
+      "border-2 border-white text-white hover:bg-white hover:text-[#1B6E90]",
   };
 
   const classes = `${base} ${sizes[size]} ${variants[variant]} ${className}`;

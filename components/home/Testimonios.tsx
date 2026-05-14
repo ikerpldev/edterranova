@@ -27,11 +27,11 @@ export default function Testimonios() {
           transition={{ duration: 0.6 }}
           className="text-center max-w-2xl mx-auto mb-16"
         >
-          <span className="text-xs tracking-[0.3em] uppercase text-[#00A8E8] font-semibold">
+          <span className="text-xs tracking-[0.3em] uppercase text-[#3DBFAA] font-semibold">
             Testimonios
           </span>
           <h2
-            className="text-3xl sm:text-4xl lg:text-5xl text-[#0A4D8C] mt-3 mb-5"
+            className="text-3xl sm:text-4xl lg:text-5xl text-[#1B6E90] mt-3 mb-5"
             style={{ fontFamily: "var(--font-playfair)" }}
           >
             Lo que dicen nuestros pacientes
@@ -57,7 +57,7 @@ export default function Testimonios() {
             >
               <Quote
                 size={36}
-                className="text-[#00A8E8]/15 absolute top-5 right-5"
+                className="text-[#3DBFAA]/15 absolute top-5 right-5"
               />
               <div className="flex gap-0.5 mb-4">
                 {Array.from({ length: t.calificacion }).map((_, i) => (
@@ -68,15 +68,15 @@ export default function Testimonios() {
                   />
                 ))}
               </div>
-              <p className="text-[#1A1A2E] leading-relaxed mb-5 flex-1">
+              <p className="text-[#1B2D3A] leading-relaxed mb-5 flex-1">
                 &ldquo;{t.texto}&rdquo;
               </p>
               <div className="flex items-center justify-between pt-5 border-t border-[#F0F4FA]">
                 <div>
-                  <p className="font-semibold text-[#0A4D8C] text-sm">{t.nombre}</p>
+                  <p className="font-semibold text-[#1B6E90] text-sm">{t.nombre}</p>
                   <p className="text-xs text-[#6B7280]">{t.fecha}</p>
                 </div>
-                <span className="text-[10px] tracking-wider uppercase font-semibold text-[#00A8E8] bg-[#00A8E8]/10 px-2.5 py-1 rounded-full">
+                <span className="text-[10px] tracking-wider uppercase font-semibold text-[#3DBFAA] bg-[#3DBFAA]/10 px-2.5 py-1 rounded-full">
                   {t.servicio}
                 </span>
               </div>

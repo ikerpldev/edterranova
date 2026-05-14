@@ -102,20 +102,20 @@ export default async function ServicioPage({ params }: PageProps) {
                   <Icon
                     name={servicio.icon}
                     size={24}
-                    className="text-[#0A4D8C]"
+                    className="text-[#1B6E90]"
                   />
                 </div>
-                <span className="text-xs tracking-[0.25em] uppercase text-[#00A8E8] font-semibold">
+                <span className="text-xs tracking-[0.25em] uppercase text-[#3DBFAA] font-semibold">
                   Especialidad
                 </span>
               </div>
               <h2
-                className="text-3xl text-[#0A4D8C] font-semibold mb-6"
+                className="text-3xl text-[#1B6E90] font-semibold mb-6"
                 style={{ fontFamily: "var(--font-playfair)" }}
               >
                 Sobre este tratamiento
               </h2>
-              <div className="space-y-4 text-[#1A1A2E] leading-relaxed">
+              <div className="space-y-4 text-[#1B2D3A] leading-relaxed">
                 {servicio.descripcionLarga.split("\n\n").map((p, i) => (
                   <p key={i}>{p}</p>
                 ))}
@@ -124,7 +124,7 @@ export default async function ServicioPage({ params }: PageProps) {
 
             <div>
               <h2
-                className="text-3xl text-[#0A4D8C] font-semibold mb-6"
+                className="text-3xl text-[#1B6E90] font-semibold mb-6"
                 style={{ fontFamily: "var(--font-playfair)" }}
               >
                 Lo que recibes con nosotros
@@ -135,10 +135,10 @@ export default async function ServicioPage({ params }: PageProps) {
                     key={b}
                     className="flex items-start gap-3 bg-[#F8FAFF] rounded-xl p-4"
                   >
-                    <span className="flex-shrink-0 w-7 h-7 rounded-full bg-[#00A8E8] text-white flex items-center justify-center">
+                    <span className="flex-shrink-0 w-7 h-7 rounded-full bg-[#3DBFAA] text-white flex items-center justify-center">
                       <Check size={15} strokeWidth={3} />
                     </span>
-                    <span className="text-[#1A1A2E] pt-0.5">{b}</span>
+                    <span className="text-[#1B2D3A] pt-0.5">{b}</span>
                   </li>
                 ))}
               </ul>
@@ -146,7 +146,7 @@ export default async function ServicioPage({ params }: PageProps) {
 
             <div>
               <h2
-                className="text-3xl text-[#0A4D8C] font-semibold mb-6"
+                className="text-3xl text-[#1B6E90] font-semibold mb-6"
                 style={{ fontFamily: "var(--font-playfair)" }}
               >
                 Preguntas frecuentes
@@ -165,11 +165,11 @@ export default async function ServicioPage({ params }: PageProps) {
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 40vw"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#0A4D8C]/80 via-transparent to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#1B6E90]/80 via-transparent to-transparent" />
               </div>
               <div className="p-6 bg-white">
                 <h3
-                  className="text-xl text-[#0A4D8C] font-semibold mb-2"
+                  className="text-xl text-[#1B6E90] font-semibold mb-2"
                   style={{ fontFamily: "var(--font-playfair)" }}
                 >
                   Agenda una valoración
@@ -207,14 +207,14 @@ export default async function ServicioPage({ params }: PageProps) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-end justify-between mb-10">
             <h2
-              className="text-2xl sm:text-3xl text-[#0A4D8C] font-semibold"
+              className="text-2xl sm:text-3xl text-[#1B6E90] font-semibold"
               style={{ fontFamily: "var(--font-playfair)" }}
             >
               Otras especialidades
             </h2>
             <Link
               href="/servicios"
-              className="text-sm font-semibold text-[#00A8E8] inline-flex items-center gap-1 hover:gap-2 transition-all"
+              className="text-sm font-semibold text-[#3DBFAA] inline-flex items-center gap-1 hover:gap-2 transition-all"
             >
               Ver todas
               <ArrowRight size={16} />
@@ -233,10 +233,10 @@ export default async function ServicioPage({ params }: PageProps) {
                     background: `linear-gradient(135deg, ${s.color}22, ${s.color}55)`,
                   }}
                 >
-                  <Icon name={s.icon} size={22} className="text-[#0A4D8C]" />
+                  <Icon name={s.icon} size={22} className="text-[#1B6E90]" />
                 </div>
                 <h3
-                  className="text-lg text-[#0A4D8C] font-semibold mb-2"
+                  className="text-lg text-[#1B6E90] font-semibold mb-2"
                   style={{ fontFamily: "var(--font-playfair)" }}
                 >
                   {s.nombre}

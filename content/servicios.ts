@@ -55,7 +55,7 @@ export const servicios: Servicio[] = [
     icon: "Smile",
     imagen:
       "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=1200&q=80",
-    color: "#00A8E8",
+    color: "#3DBFAA",
   },
   {
     slug: "endodoncia",
@@ -96,7 +96,7 @@ export const servicios: Servicio[] = [
     icon: "Activity",
     imagen:
       "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=1200&q=80",
-    color: "#0A4D8C",
+    color: "#1B6E90",
   },
   {
     slug: "implantologia",
@@ -137,7 +137,7 @@ export const servicios: Servicio[] = [
     icon: "Sparkles",
     imagen:
       "https://images.unsplash.com/photo-1609840114035-3c981b782dfe?w=1200&q=80",
-    color: "#1A6DB5",
+    color: "#2B8FAD",
   },
   {
     slug: "estetica-dental",
@@ -178,7 +178,7 @@ export const servicios: Servicio[] = [
     icon: "Sparkles",
     imagen:
       "https://images.unsplash.com/photo-1581585504056-cda28d77c8b9?w=1200&q=80",
-    color: "#00A8E8",
+    color: "#3DBFAA",
   },
   {
     slug: "odontopediatria",
@@ -219,7 +219,7 @@ export const servicios: Servicio[] = [
     icon: "Heart",
     imagen:
       "https://images.unsplash.com/photo-1588776814546-1ffbb3cd39c5?w=1200&q=80",
-    color: "#1A6DB5",
+    color: "#2B8FAD",
   },
   {
     slug: "periodoncia",
@@ -260,7 +260,7 @@ export const servicios: Servicio[] = [
     icon: "Shield",
     imagen:
       "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1200&q=80",
-    color: "#0A4D8C",
+    color: "#1B6E90",
   },
   {
     slug: "cirugia-oral",
@@ -301,7 +301,7 @@ export const servicios: Servicio[] = [
     icon: "Zap",
     imagen:
       "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1200&q=80",
-    color: "#1A6DB5",
+    color: "#2B8FAD",
   },
   {
     slug: "blanqueamiento",
@@ -342,7 +342,7 @@ export const servicios: Servicio[] = [
     icon: "Star",
     imagen:
       "https://images.unsplash.com/photo-1606811951341-1395d49d6c25?w=1200&q=80",
-    color: "#00A8E8",
+    color: "#3DBFAA",
   },
 ];
 

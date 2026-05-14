@@ -27,7 +27,7 @@ export default function WhatsAppFAB() {
           className="group fixed bottom-4 right-4 md:bottom-8 md:right-8 z-50 flex items-center"
           aria-label="Escríbenos por WhatsApp"
         >
-          <span className="hidden md:block opacity-0 group-hover:opacity-100 translate-x-2 group-hover:translate-x-0 transition-all duration-200 mr-3 bg-white text-[#1A1A2E] text-sm font-medium px-3 py-2 rounded-lg shadow-lg pointer-events-none">
+          <span className="hidden md:block opacity-0 group-hover:opacity-100 translate-x-2 group-hover:translate-x-0 transition-all duration-200 mr-3 bg-white text-[#1B2D3A] text-sm font-medium px-3 py-2 rounded-lg shadow-lg pointer-events-none">
             Escríbenos
           </span>
           <span className="wa-pulse w-14 h-14 md:w-16 md:h-16 rounded-full bg-[#25D366] hover:bg-[#1FB955] text-white flex items-center justify-center shadow-xl transition-colors">

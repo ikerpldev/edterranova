@@ -14,11 +14,11 @@ export default function MapaUbicacion() {
           transition={{ duration: 0.6 }}
           className="text-center max-w-2xl mx-auto mb-14"
         >
-          <span className="text-xs tracking-[0.3em] uppercase text-[#00A8E8] font-semibold">
+          <span className="text-xs tracking-[0.3em] uppercase text-[#3DBFAA] font-semibold">
             Visítanos
           </span>
           <h2
-            className="text-3xl sm:text-4xl lg:text-5xl text-[#0A4D8C] mt-3"
+            className="text-3xl sm:text-4xl lg:text-5xl text-[#1B6E90] mt-3"
             style={{ fontFamily: "var(--font-playfair)" }}
           >
             Encuéntranos en Guadalajara
@@ -34,14 +34,14 @@ export default function MapaUbicacion() {
             className="bg-[#F8FAFF] rounded-2xl p-8 lg:p-10 flex flex-col gap-7"
           >
             <div className="flex gap-4">
-              <div className="w-12 h-12 rounded-xl bg-[#0A4D8C] flex items-center justify-center flex-shrink-0">
+              <div className="w-12 h-12 rounded-xl bg-[#1B6E90] flex items-center justify-center flex-shrink-0">
                 <MapPin size={22} className="text-white" />
               </div>
               <div>
                 <p className="text-xs tracking-widest uppercase text-[#6B7280] font-semibold mb-1">
                   Dirección
                 </p>
-                <p className="text-[#1A1A2E] leading-relaxed">
+                <p className="text-[#1B2D3A] leading-relaxed">
                   Av. Terranova 123,
                   <br />
                   Col. Providencia, 44660
@@ -52,7 +52,7 @@ export default function MapaUbicacion() {
             </div>
 
             <div className="flex gap-4">
-              <div className="w-12 h-12 rounded-xl bg-[#00A8E8] flex items-center justify-center flex-shrink-0">
+              <div className="w-12 h-12 rounded-xl bg-[#3DBFAA] flex items-center justify-center flex-shrink-0">
                 <Phone size={22} className="text-white" />
               </div>
               <div>
@@ -61,7 +61,7 @@ export default function MapaUbicacion() {
                 </p>
                 <a
                   href="tel:+523312345678"
-                  className="text-[#1A1A2E] hover:text-[#0A4D8C] transition-colors block"
+                  className="text-[#1B2D3A] hover:text-[#1B6E90] transition-colors block"
                 >
                   +52 33 1234-5678
                 </a>
@@ -77,14 +77,14 @@ export default function MapaUbicacion() {
             </div>
 
             <div className="flex gap-4">
-              <div className="w-12 h-12 rounded-xl bg-[#1A6DB5] flex items-center justify-center flex-shrink-0">
+              <div className="w-12 h-12 rounded-xl bg-[#2B8FAD] flex items-center justify-center flex-shrink-0">
                 <Clock size={22} className="text-white" />
               </div>
               <div>
                 <p className="text-xs tracking-widest uppercase text-[#6B7280] font-semibold mb-1">
                   Horarios
                 </p>
-                <p className="text-[#1A1A2E]">
+                <p className="text-[#1B2D3A]">
                   Lunes a Viernes: 9:00 – 19:00
                   <br />
                   Sábados: 9:00 – 14:00

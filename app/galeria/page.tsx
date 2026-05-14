@@ -107,7 +107,7 @@ export default function GaleriaPage() {
                   className="w-full h-auto transition-transform duration-500 group-hover:scale-[1.04]"
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#0A4D8C]/40 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#1B6E90]/40 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
               </div>
             ))}
           </div>

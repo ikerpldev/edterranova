@@ -42,7 +42,7 @@ export default function ServiciosGrid() {
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
                 sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-[#0A4D8C]/70 via-[#0A4D8C]/10 to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#1B6E90]/70 via-[#1B6E90]/10 to-transparent" />
               <div
                 className="absolute bottom-4 left-4 w-12 h-12 rounded-xl flex items-center justify-center backdrop-blur"
                 style={{ backgroundColor: `${s.color}E6` }}
@@ -52,7 +52,7 @@ export default function ServiciosGrid() {
             </div>
             <div className="p-6">
               <h3
-                className="text-xl text-[#0A4D8C] font-semibold mb-3"
+                className="text-xl text-[#1B6E90] font-semibold mb-3"
                 style={{ fontFamily: "var(--font-playfair)" }}
               >
                 {s.nombre}
@@ -60,7 +60,7 @@ export default function ServiciosGrid() {
               <p className="text-sm text-[#6B7280] leading-relaxed mb-5">
                 {s.descripcionCorta}
               </p>
-              <span className="inline-flex items-center gap-1 text-sm font-semibold text-[#00A8E8] group-hover:gap-2 transition-all">
+              <span className="inline-flex items-center gap-1 text-sm font-semibold text-[#3DBFAA] group-hover:gap-2 transition-all">
                 Conocer detalles
                 <ArrowRight size={16} />
               </span>

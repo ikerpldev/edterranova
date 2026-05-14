@@ -5,7 +5,7 @@ import Button from "@/components/ui/Button";
 
 export default function CTACitas() {
   return (
-    <section className="relative py-24 overflow-hidden bg-gradient-to-br from-[#0A4D8C] via-[#1A6DB5] to-[#00A8E8] text-white">
+    <section className="relative py-24 overflow-hidden bg-gradient-to-br from-[#1B6E90] via-[#2B8FAD] to-[#3DBFAA] text-white">
       <div
         className="absolute inset-0 opacity-15"
         style={{

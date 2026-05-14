@@ -31,10 +31,10 @@ export default function PageHero({
               style={{ backgroundImage: `url(${imageUrl})` }}
             />
           </div>
-          <div className="absolute inset-0 bg-gradient-to-br from-[#0A4D8C]/90 via-[#0A4D8C]/85 to-[#00A8E8]/70" />
+          <div className="absolute inset-0 bg-gradient-to-br from-[#1B6E90]/90 via-[#1B6E90]/85 to-[#3DBFAA]/70" />
         </>
       ) : (
-        <div className="absolute inset-0 bg-gradient-to-br from-[#0A4D8C] via-[#1A6DB5] to-[#00A8E8]" />
+        <div className="absolute inset-0 bg-gradient-to-br from-[#1B6E90] via-[#2B8FAD] to-[#3DBFAA]" />
       )}
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-white">

@@ -25,13 +25,13 @@ export default function FaqAccordion({ faqs }: Props) {
               className="w-full flex items-center justify-between gap-4 text-left px-6 py-5 hover:bg-[#F8FAFF] transition-colors cursor-pointer"
               aria-expanded={isOpen}
             >
-              <span className="font-semibold text-[#0A4D8C] text-base lg:text-lg">
+              <span className="font-semibold text-[#1B6E90] text-base lg:text-lg">
                 {faq.pregunta}
               </span>
               <motion.span
                 animate={{ rotate: isOpen ? 180 : 0 }}
                 transition={{ duration: 0.25 }}
-                className="flex-shrink-0 w-8 h-8 rounded-full bg-[#00A8E8]/10 flex items-center justify-center text-[#00A8E8]"
+                className="flex-shrink-0 w-8 h-8 rounded-full bg-[#3DBFAA]/10 flex items-center justify-center text-[#3DBFAA]"
               >
                 <ChevronDown size={18} />
               </motion.span>

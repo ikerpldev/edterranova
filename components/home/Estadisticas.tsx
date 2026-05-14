@@ -31,7 +31,7 @@ const stats = [
 
 export default function Estadisticas() {
   return (
-    <section className="relative py-20 overflow-hidden bg-gradient-to-br from-[#0A4D8C] via-[#0A4D8C] to-[#1A6DB5] text-white">
+    <section className="relative py-20 overflow-hidden bg-gradient-to-br from-[#1B6E90] via-[#1B6E90] to-[#2B8FAD] text-white">
       <div className="absolute inset-0 opacity-10">
         <div
           className="absolute inset-0"
@@ -57,14 +57,14 @@ export default function Estadisticas() {
                 className="text-center"
               >
                 <div className="w-14 h-14 mx-auto rounded-full bg-white/15 backdrop-blur flex items-center justify-center mb-4">
-                  <Ico size={24} className="text-[#00A8E8]" />
+                  <Ico size={24} className="text-[#3DBFAA]" />
                 </div>
                 <p
                   className="text-5xl lg:text-6xl font-semibold tracking-tight"
                   style={{ fontFamily: "var(--font-playfair)" }}
                 >
                   {s.value}
-                  <span className="text-[#00A8E8]">{s.suffix}</span>
+                  <span className="text-[#3DBFAA]">{s.suffix}</span>
                 </p>
                 <p className="mt-3 text-sm uppercase tracking-[0.18em] text-white/75">
                   {s.label}

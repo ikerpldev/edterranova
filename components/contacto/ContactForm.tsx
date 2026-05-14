@@ -58,7 +58,7 @@ export default function ContactForm() {
     >
       <div>
         <h3
-          className="text-2xl text-[#0A4D8C] font-semibold mb-1"
+          className="text-2xl text-[#1B6E90] font-semibold mb-1"
           style={{ fontFamily: "var(--font-playfair)" }}
         >
           Escríbenos
@@ -75,14 +75,14 @@ export default function ContactForm() {
       <Field label="Email" name="email" type="email" required />
 
       <div className="flex flex-col gap-1.5">
-        <label className="text-sm font-medium text-[#1A1A2E]">
+        <label className="text-sm font-medium text-[#1B2D3A]">
           Servicio de interés
         </label>
         <select
           name="servicio"
           required
           defaultValue=""
-          className="w-full px-4 py-3 rounded-lg border border-[#E5EBF5] bg-white text-[#1A1A2E] focus:outline-none focus:ring-2 focus:ring-[#00A8E8] focus:border-transparent transition"
+          className="w-full px-4 py-3 rounded-lg border border-[#E5EBF5] bg-white text-[#1B2D3A] focus:outline-none focus:ring-2 focus:ring-[#3DBFAA] focus:border-transparent transition"
         >
           <option value="" disabled>
             Selecciona una especialidad…
@@ -97,13 +97,13 @@ export default function ContactForm() {
       </div>
 
       <div className="flex flex-col gap-1.5">
-        <label className="text-sm font-medium text-[#1A1A2E]">Mensaje</label>
+        <label className="text-sm font-medium text-[#1B2D3A]">Mensaje</label>
         <textarea
           name="mensaje"
           required
           rows={4}
           placeholder="Cuéntanos brevemente cómo podemos ayudarte..."
-          className="w-full px-4 py-3 rounded-lg border border-[#E5EBF5] bg-white text-[#1A1A2E] placeholder:text-[#9CA3AF] focus:outline-none focus:ring-2 focus:ring-[#00A8E8] focus:border-transparent transition resize-none"
+          className="w-full px-4 py-3 rounded-lg border border-[#E5EBF5] bg-white text-[#1B2D3A] placeholder:text-[#9CA3AF] focus:outline-none focus:ring-2 focus:ring-[#3DBFAA] focus:border-transparent transition resize-none"
         />
       </div>
 
@@ -119,7 +119,7 @@ export default function ContactForm() {
       <button
         type="submit"
         disabled={status === "loading"}
-        className="w-full inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-[#0A4D8C] hover:bg-[#1A6DB5] disabled:opacity-60 disabled:cursor-not-allowed text-white font-semibold rounded-full shadow-lg transition-all"
+        className="w-full inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-[#1B6E90] hover:bg-[#2B8FAD] disabled:opacity-60 disabled:cursor-not-allowed text-white font-semibold rounded-full shadow-lg transition-all"
       >
         {status === "loading" ? (
           <>
@@ -166,16 +166,16 @@ function Field({
 }) {
   return (
     <div className="flex flex-col gap-1.5">
-      <label htmlFor={name} className="text-sm font-medium text-[#1A1A2E]">
+      <label htmlFor={name} className="text-sm font-medium text-[#1B2D3A]">
         {label}
-        {required && <span className="text-[#00A8E8]"> *</span>}
+        {required && <span className="text-[#3DBFAA]"> *</span>}
       </label>
       <input
         id={name}
         type={type}
         name={name}
         required={required}
-        className="w-full px-4 py-3 rounded-lg border border-[#E5EBF5] bg-white text-[#1A1A2E] focus:outline-none focus:ring-2 focus:ring-[#00A8E8] focus:border-transparent transition"
+        className="w-full px-4 py-3 rounded-lg border border-[#E5EBF5] bg-white text-[#1B2D3A] focus:outline-none focus:ring-2 focus:ring-[#3DBFAA] focus:border-transparent transition"
       />
     </div>
   );

@@ -1,8 +1,9 @@
 "use client";
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
-import { Smile, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import Button from "@/components/ui/Button";
 
 const links = [
@@ -44,34 +45,22 @@ export default function Header() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2 group">
+        <Link href="/" className="flex items-center group">
           <div
-            className={`w-10 h-10 rounded-full flex items-center justify-center transition-colors ${
-              scrolled ? "bg-[#0A4D8C]" : "bg-white/15 backdrop-blur"
+            className={`transition-all duration-300 rounded-xl overflow-hidden ${
+              scrolled
+                ? "bg-white h-14 w-auto px-1"
+                : "bg-white/90 backdrop-blur h-14 w-auto px-1 shadow-lg"
             }`}
           >
-            <Smile
-              size={22}
-              strokeWidth={2}
-              className={scrolled ? "text-white" : "text-white"}
+            <Image
+              src="/logo.jpg"
+              alt="Especialidades Dentales Terranova"
+              width={120}
+              height={56}
+              className="h-full w-auto object-contain"
+              priority
             />
-          </div>
-          <div className="flex flex-col leading-tight">
-            <span
-              className={`font-[var(--font-heading)] text-xl font-semibold ${
-                scrolled ? "text-[#0A4D8C]" : "text-white"
-              }`}
-              style={{ fontFamily: "var(--font-playfair)" }}
-            >
-              Terranova
-            </span>
-            <span
-              className={`text-[10px] tracking-[0.18em] uppercase ${
-                scrolled ? "text-[#6B7280]" : "text-white/80"
-              }`}
-            >
-              Especialidades Dentales
-            </span>
           </div>
         </Link>
 
@@ -80,8 +69,8 @@ export default function Header() {
             <Link
               key={l.href}
               href={l.href}
-              className={`text-sm font-medium transition-colors hover:text-[#00A8E8] ${
-                scrolled ? "text-[#1A1A2E]" : "text-white"
+              className={`text-sm font-medium transition-colors hover:text-[#3DBFAA] ${
+                scrolled ? "text-[#1B2D3A]" : "text-white"
               }`}
             >
               {l.label}
@@ -95,7 +84,7 @@ export default function Header() {
         <button
           onClick={() => setOpen(true)}
           className={`lg:hidden p-2 rounded-md ${
-            scrolled ? "text-[#0A4D8C]" : "text-white"
+            scrolled ? "text-[#1B6E90]" : "text-white"
           }`}
           aria-label="Abrir menú"
         >
@@ -121,20 +110,29 @@ export default function Header() {
               className="absolute right-0 top-0 h-full w-80 max-w-[88vw] bg-white shadow-2xl p-8 flex flex-col"
               onClick={(e) => e.stopPropagation()}
             >
-              <button
-                onClick={() => setOpen(false)}
-                className="self-end p-2 text-[#0A4D8C]"
-                aria-label="Cerrar menú"
-              >
-                <X size={26} />
-              </button>
-              <nav className="flex flex-col gap-5 mt-6">
+              <div className="flex items-center justify-between mb-6">
+                <Image
+                  src="/logo.jpg"
+                  alt="Especialidades Dentales Terranova"
+                  width={110}
+                  height={48}
+                  className="h-12 w-auto object-contain"
+                />
+                <button
+                  onClick={() => setOpen(false)}
+                  className="p-2 text-[#1B6E90]"
+                  aria-label="Cerrar menú"
+                >
+                  <X size={26} />
+                </button>
+              </div>
+              <nav className="flex flex-col gap-5 mt-2">
                 {links.map((l) => (
                   <Link
                     key={l.href}
                     href={l.href}
                     onClick={() => setOpen(false)}
-                    className="text-lg font-semibold text-[#1A1A2E] hover:text-[#00A8E8]"
+                    className="text-lg font-semibold text-[#1B2D3A] hover:text-[#3DBFAA]"
                   >
                     {l.label}
                   </Link>
