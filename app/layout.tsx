@@ -20,6 +20,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://edterranova.vercel.app"),
   title: "Especialidades Dentales Terranova | Guadalajara",
   description:
     "Clínica dental de especialidades en Guadalajara. Ortodoncia, Endodoncia, Implantología y más. Más de 62 pacientes satisfechos. Agenda tu cita hoy.",
